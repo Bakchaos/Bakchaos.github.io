@@ -1,0 +1,469 @@
+
+@media (max-width: 800px) {
+    #cabecalho {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #logo {
+        margin: 0 16px;
+    }
+
+    #links {
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+    }
+
+    #links a {
+        margin: 0;
+    }
+
+    #links a:last-child {
+        margin-right: 0;
+    }
+
+    #border {
+        background-color: rgb(26, 26, 26);
+        gap: 50px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #jogo_logo {
+        max-width: 100%;
+      }
+
+      
+      #jogo_logo {
+        max-width: 80%;
+      }
+
+      .linha_jogo {
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+        width: 100%; 
+        margin: 1px 1px;
+        padding: 20px;
+        font-size: 15px;
+        font-family: "Raleway", sans-serif;
+
+        }
+
+    .linha_jogo h5{
+        font-size: 30px;
+        }
+
+    .jogo_imagem {
+        width: 50%;
+        height: 50%;
+            }
+
+    .texto_jogos{
+        width: 400px;
+        }
+
+    .linha_jogo_bordered {
+        background-color: rgb(36, 34, 39);
+        margin: 24px 12px;
+        font-size: 16px;    
+        border-radius: 6px;
+        }
+
+    .linha_jogo_bordered H4{
+            font-size: 30px;
+        }
+
+    .jogo_imagem_bordered {
+        width: 60%;
+        height: 60%;
+        }
+
+    .linha_jogo_inverso {
+        background-color: rgb(36, 34, 39);
+        margin: 24px 12px;
+        font-size: 16px;    
+        border-radius: 6px;
+            }
+
+    .jogo_imagem_inverso{
+        width: 60%;
+        height: 60%;
+        }
+
+    #border_estudio{
+        width: 100%;
+        }
+
+    #estudio_logo{
+        width: 80%;
+        }
+    
+    .custom-table { 
+    width: 84%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+    }
+
+.custom-table td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    background-color: rgba(42, 42, 42, 1);
+    vertical-align: top;
+    width: 33.33%;
+    border-radius: 12px;
+
+}
+
+.cell-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.cell-content img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 999px;
+}
+
+.text-content h3 {
+    margin: 0 0 5px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.text-content p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+        
+
+@media (max-width: 551px) {
+    #links a{
+        font-size: 12px;
+    }
+
+    #logo {
+        height: 20px;
+        width: auto;
+    }
+
+    .linha_index{
+      font-size: 13px;
+        }
+
+    .linha_index h2{
+        margin-bottom: 10px;
+        }
+
+    .index_imagem {
+    width: 40%;
+    height: 40%;
+    }
+
+    #espaçamento{
+        height: 2px;  
+        }
+        
+    #rodapé {
+         padding: 16px 16px;
+         background-color:rgba(70, 38, 125, 1);
+         box-sizing: border-box;
+         width: 100%;
+         font-family: "Raleway", sans-serif;
+     }
+
+    .esquerda {
+         font-size: 13px;
+         max-width: 300px;
+        }
+    
+    .direita a {
+        font-size: 13px;
+        }
+    
+        .linha_jogo {
+            gap: 48px;
+            width: 100%; 
+            margin: 1px 1px;
+            padding: 20px;
+            font-size: 13px;
+            font-family: "Raleway", sans-serif;
+    
+            }
+    
+        .linha_jogo h5{
+            font-size: 20px;
+            }
+    
+        .jogo_imagem {
+            width: 50%;
+            height: 50%;
+                }
+    
+        .texto_jogos{
+            width: 200px;
+            }
+    
+        .linha_jogo_bordered {
+            background-color: rgb(36, 34, 39);
+            margin: 24px 12px;
+            font-size: 13px;    
+            border-radius: 6px;
+            }
+    
+        .linha_jogo_bordered H4{
+                font-size: 20px;
+            }
+    
+        .jogo_imagem_bordered {
+            width: 60%;
+            height: 60%;
+            }
+    
+        .linha_jogo_inverso {
+            background-color: rgb(36, 34, 39);
+            margin: 24px 12px;
+            font-size: 13px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+                }
+
+        .linha_jogo_inverso h4{
+            font-size: 20px;
+                        }
+                    
+        .jogo_imagem_inverso img{
+                width: 100%;
+                height: 100%;
+        }
+
+        .botao {
+            font-size: 10px;
+          }
+
+        #border_contato_short a{
+            font-size: 14px;
+          }
+
+        #border_contato_short img{
+            height: 20%;
+            width: 20%;
+        }
+
+        #border_contato_long {
+            font-size: 16px;
+          }
+
+          #border_contato_long img{
+            height: 15%;
+            width: 15%;
+          }
+        
+
+    .custom-table { 
+        width: 84%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 20px 10px;
+        }
+
+    .custom-table td {
+        border: 1px solid #ffffff;
+        padding: 10px;
+        background-color: rgba(42, 42, 42, 1);
+        vertical-align: top;
+        width: 33.33%;
+        height: 100%;
+        border-radius: 12px;
+
+    }
+
+    .cell-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cell-content img {
+        width: 25%;
+        height: 25%;
+        object-fit: cover;
+        flex-shrink: 0;
+        border-radius: 999px;
+    }
+
+    .text-content h3 {
+        margin: 0 0 5px;
+        color: #ffffff;
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .text-content p {
+        margin: 0;
+        font-size: 0.50 em;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }
+
+ }   
+
+}
+
+    @media (max-width: 400px) {
+
+        #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 24px;
+        background-color: hsl(262, 53%, 32%);
+        box-sizing: border-box;
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+    }
+
+    #logo {
+        height: 16px;
+        margin-left: 1px;
+        border: none;
+    }
+
+    #links a {
+        text-decoration: none;
+        color: #f5eeff;
+        font-weight: bold;
+        font-size: 8px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .linha_index{
+        font-size: 8px;
+    }
+
+    .linha_index h2{
+        font-size: 20px;
+        }
+
+    .index_imagem {
+    width: 30%;
+    height: 30%;
+    }
+
+    .linha_jogo {
+    display: flex;
+    justify-content: center;
+    gap: 24px; 
+    padding: 10px;
+    font-size: 10px;
+    font-family: "Raleway", sans-serif;
+    }
+
+    .linha_jogo h5 i{
+    font-size: 14px;
+    }
+
+    .jogo_imagem {
+        width: 50%;
+        height: 50%;
+    }
+
+    .linha_jogo_bordered {
+        margin: 12px 6px;
+        font-size: 10px;    
+        border-radius: 6px;
+        gap: 24px;
+        padding: 16px;
+        }
+    
+    .linha_jogo_bordered H4{
+        font-size: 14px;
+        }
+
+    .jogo_imagem_bordered {
+        width: 60%;
+        height: 60%;
+        }
+
+    .linha_jogo_inverso {
+            margin: 12px 6px;
+            font-size: 10px;
+            border-radius: 6px;
+            gap: 12px;
+            padding: 12 px;
+            }
+
+        .linha_jogo_inverso h4{
+            font-size: 14px;
+                        }
+                    
+        .jogo_imagem_inverso img{
+                width: 100%;
+                height: 100%;
+        }
+
+        #border_contato_short img{
+            height: 17%;
+            width: 17%;
+        }
+
+        .custom-table { 
+        width: 84%;
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 10px 30px;
+        }
+
+    .custom-table td {
+        border: 1px solid #ffffff;
+        padding: 10px;
+        background-color: rgba(42, 42, 42, 1);
+        vertical-align: top;
+        width: 33.33%;
+        height: 100%;
+        border-radius: 12px;
+
+    }
+
+    .cell-content {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cell-content img {
+        width: 25%;
+        height: 25%;
+        object-fit: cover;
+        flex-shrink: 0;
+        border-radius: 999px;
+    }
+
+    .text-content h3 {
+        margin: 0 0 5px;
+        color: #ffffff;
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+
+    .text-content p {
+        margin: 0;
+        font-size: 0.4em;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }
+}
